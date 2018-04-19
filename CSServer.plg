@@ -1,0 +1,253 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CSServer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/CSServer.res" /d "NDEBUG" /d "_AFXDLL" "G:\WorkData\VCData\CSServer\CSServer.rc"" 
+Creating temporary file "F:\DOCUME~1\wyb\LOCALS~1\Temp\RSP40B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/CSServer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\WorkData\VCData\public\ADODB.cpp"
+"G:\WorkData\VCData\CSServer\BSDlg.cpp"
+"G:\WorkData\VCData\CSServer\ClientData.cpp"
+"G:\WorkData\VCData\CSServer\ConfigDlg.cpp"
+"G:\WorkData\VCData\CSServer\CSSClientDlg.cpp"
+"G:\WorkData\VCData\CSServer\CSServer.cpp"
+"G:\WorkData\VCData\CSServer\CSServerDlg.cpp"
+"G:\WorkData\VCData\public\Data.cpp"
+"G:\WorkData\VCData\CSServer\DatabaseDlg.cpp"
+"G:\WorkData\VCData\CSServer\DESDlg.cpp"
+"G:\WorkData\VCData\public\Encrypt.cpp"
+"G:\WorkData\VCData\public\EncryptionData.cpp"
+"G:\WorkData\VCData\public\Language.cpp"
+"G:\WorkData\VCData\public\LanguageCN.cpp"
+"G:\WorkData\VCData\public\LanguageEN.cpp"
+"G:\WorkData\VCData\public\MacIP.cpp"
+"G:\WorkData\VCData\public\ProtocolData.cpp"
+"G:\WorkData\VCData\public\public.cpp"
+"G:\WorkData\VCData\public\QuerySocketObject.cpp"
+"G:\WorkData\VCData\public\ServerSocket.cpp"
+"G:\WorkData\VCData\public\SoftKey.cpp"
+"G:\WorkData\VCData\public\SQLDBData.cpp"
+"G:\WorkData\VCData\CSServer\Thread.cpp"
+]
+Creating command line "cl.exe @F:\DOCUME~1\wyb\LOCALS~1\Temp\RSP40B.tmp" 
+Creating temporary file "F:\DOCUME~1\wyb\LOCALS~1\Temp\RSP40C.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/CSServer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\WorkData\VCData\CSServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @F:\DOCUME~1\wyb\LOCALS~1\Temp\RSP40C.tmp" 
+Creating temporary file "F:\DOCUME~1\wyb\LOCALS~1\Temp\RSP40D.tmp" with contents
+[
+my3l_Ex.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/CSServer.pdb" /machine:I386 /out:"Release/CSServer.exe" 
+.\Release\ADODB.obj
+.\Release\BSDlg.obj
+.\Release\ClientData.obj
+.\Release\ConfigDlg.obj
+.\Release\CSSClientDlg.obj
+.\Release\CSServer.obj
+.\Release\CSServerDlg.obj
+.\Release\Data.obj
+.\Release\DatabaseDlg.obj
+.\Release\DESDlg.obj
+.\Release\Encrypt.obj
+.\Release\EncryptionData.obj
+.\Release\Language.obj
+.\Release\LanguageCN.obj
+.\Release\LanguageEN.obj
+.\Release\MacIP.obj
+.\Release\ProtocolData.obj
+.\Release\public.obj
+.\Release\QuerySocketObject.obj
+.\Release\ServerSocket.obj
+.\Release\SoftKey.obj
+.\Release\SQLDBData.obj
+.\Release\StdAfx.obj
+.\Release\Thread.obj
+.\Release\CSServer.res
+]
+Creating command line "link.exe @F:\DOCUME~1\wyb\LOCALS~1\Temp\RSP40D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Automatically linking with ToolkitPro1200vc60.dll
+Compiling...
+ADODB.cpp
+BSDlg.cpp
+ClientData.cpp
+ConfigDlg.cpp
+CSSClientDlg.cpp
+CSServer.cpp
+CSServerDlg.cpp
+Data.cpp
+DatabaseDlg.cpp
+DESDlg.cpp
+Encrypt.cpp
+EncryptionData.cpp
+Language.cpp
+LanguageCN.cpp
+LanguageEN.cpp
+MacIP.cpp
+ProtocolData.cpp
+public.cpp
+QuerySocketObject.cpp
+ServerSocket.cpp
+Generating Code...
+Compiling...
+SoftKey.cpp
+SQLDBData.cpp
+Thread.cpp
+G:\WorkData\VCData\CSServer\Thread.cpp(364) : warning C4101: 'chAppName' : unreferenced local variable
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+CSServer.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: CSServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/CSServer.res" /d "_DEBUG" /d "_AFXDLL" "G:\WorkData\VCData\CSServer\CSServer.rc"" 
+Creating temporary file "F:\DOCUME~1\wyb\LOCALS~1\Temp\RSP40F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/CSServer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /Zm500 /GZ /c 
+"G:\WorkData\VCData\public\ADODB.cpp"
+"G:\WorkData\VCData\CSServer\BSDlg.cpp"
+"G:\WorkData\VCData\CSServer\ClientData.cpp"
+"G:\WorkData\VCData\CSServer\ConfigDlg.cpp"
+"G:\WorkData\VCData\CSServer\CSSClientDlg.cpp"
+"G:\WorkData\VCData\CSServer\CSServer.cpp"
+"G:\WorkData\VCData\CSServer\CSServerDlg.cpp"
+"G:\WorkData\VCData\public\Data.cpp"
+"G:\WorkData\VCData\CSServer\DatabaseDlg.cpp"
+"G:\WorkData\VCData\CSServer\DESDlg.cpp"
+"G:\WorkData\VCData\public\Encrypt.cpp"
+"G:\WorkData\VCData\public\EncryptionData.cpp"
+"G:\WorkData\VCData\public\Language.cpp"
+"G:\WorkData\VCData\public\LanguageCN.cpp"
+"G:\WorkData\VCData\public\LanguageEN.cpp"
+"G:\WorkData\VCData\public\MacIP.cpp"
+"G:\WorkData\VCData\public\ProtocolData.cpp"
+"G:\WorkData\VCData\public\public.cpp"
+"G:\WorkData\VCData\public\QuerySocketObject.cpp"
+"G:\WorkData\VCData\public\ServerSocket.cpp"
+"G:\WorkData\VCData\public\SoftKey.cpp"
+"G:\WorkData\VCData\public\SQLDBData.cpp"
+"G:\WorkData\VCData\CSServer\Thread.cpp"
+]
+Creating command line "cl.exe @F:\DOCUME~1\wyb\LOCALS~1\Temp\RSP40F.tmp" 
+Creating temporary file "F:\DOCUME~1\wyb\LOCALS~1\Temp\RSP410.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/CSServer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /Zm500 /GZ /c 
+"G:\WorkData\VCData\CSServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @F:\DOCUME~1\wyb\LOCALS~1\Temp\RSP410.tmp" 
+Creating temporary file "F:\DOCUME~1\wyb\LOCALS~1\Temp\RSP411.tmp" with contents
+[
+my3l_Ex.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/CSServer.pdb" /debug /machine:I386 /out:"Debug/CSServer.exe" /pdbtype:sept 
+.\Debug\ADODB.obj
+.\Debug\BSDlg.obj
+.\Debug\ClientData.obj
+.\Debug\ConfigDlg.obj
+.\Debug\CSSClientDlg.obj
+.\Debug\CSServer.obj
+.\Debug\CSServerDlg.obj
+.\Debug\Data.obj
+.\Debug\DatabaseDlg.obj
+.\Debug\DESDlg.obj
+.\Debug\Encrypt.obj
+.\Debug\EncryptionData.obj
+.\Debug\Language.obj
+.\Debug\LanguageCN.obj
+.\Debug\LanguageEN.obj
+.\Debug\MacIP.obj
+.\Debug\ProtocolData.obj
+.\Debug\public.obj
+.\Debug\QuerySocketObject.obj
+.\Debug\ServerSocket.obj
+.\Debug\SoftKey.obj
+.\Debug\SQLDBData.obj
+.\Debug\StdAfx.obj
+.\Debug\Thread.obj
+.\Debug\CSServer.res
+]
+Creating command line "link.exe @F:\DOCUME~1\wyb\LOCALS~1\Temp\RSP411.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Automatically linking with ToolkitPro1200vc60D.dll
+Compiling...
+ADODB.cpp
+BSDlg.cpp
+ClientData.cpp
+ConfigDlg.cpp
+CSSClientDlg.cpp
+CSServer.cpp
+CSServerDlg.cpp
+Data.cpp
+DatabaseDlg.cpp
+DESDlg.cpp
+Encrypt.cpp
+EncryptionData.cpp
+Language.cpp
+LanguageCN.cpp
+LanguageEN.cpp
+MacIP.cpp
+ProtocolData.cpp
+public.cpp
+QuerySocketObject.cpp
+ServerSocket.cpp
+Generating Code...
+Compiling...
+SoftKey.cpp
+SQLDBData.cpp
+Thread.cpp
+G:\WorkData\VCData\CSServer\Thread.cpp(364) : warning C4101: 'chAppName' : unreferenced local variable
+Generating Code...
+Linking...
+Creating temporary file "F:\DOCUME~1\wyb\LOCALS~1\Temp\RSP416.tmp" with contents
+[
+/nologo /o"Debug/CSServer.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\ADODB.sbr
+.\Debug\BSDlg.sbr
+.\Debug\ClientData.sbr
+.\Debug\ConfigDlg.sbr
+.\Debug\CSSClientDlg.sbr
+.\Debug\CSServer.sbr
+.\Debug\CSServerDlg.sbr
+.\Debug\Data.sbr
+.\Debug\DatabaseDlg.sbr
+.\Debug\DESDlg.sbr
+.\Debug\Encrypt.sbr
+.\Debug\EncryptionData.sbr
+.\Debug\Language.sbr
+.\Debug\LanguageCN.sbr
+.\Debug\LanguageEN.sbr
+.\Debug\MacIP.sbr
+.\Debug\ProtocolData.sbr
+.\Debug\public.sbr
+.\Debug\QuerySocketObject.sbr
+.\Debug\ServerSocket.sbr
+.\Debug\SoftKey.sbr
+.\Debug\SQLDBData.sbr
+.\Debug\Thread.sbr]
+Creating command line "bscmake.exe @F:\DOCUME~1\wyb\LOCALS~1\Temp\RSP416.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+CSServer.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
